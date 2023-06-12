@@ -63,6 +63,13 @@ FOLLOW THESE STEP
     dataset=list()
    ```
 
+## SCREENSHOTS 
+
+> ### SAMPLE REQUESTS PINGING 
+![https://github.com/shadowfaxx1/Web-Sraper/blob/91e1207928ba83da345310d7291a3e8b819b9e58/sample_screenshots/requests.png](https://github.com/shadowfaxx1/Web-Sraper/blob/91e1207928ba83da345310d7291a3e8b819b9e58/sample_screenshots/requests.png )
+> ### SAMPLE OUTPUT 
+![https://github.com/shadowfaxx1/Web-Sraper/tree/91e1207928ba83da345310d7291a3e8b819b9e58/sample_screenshots](https://github.com/shadowfaxx1/Web-Sraper/blob/91e1207928ba83da345310d7291a3e8b819b9e58/sample_screenshots/ouput.png )
+
 
 
 
