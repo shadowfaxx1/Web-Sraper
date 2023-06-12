@@ -1,9 +1,9 @@
 ﻿#          🔰 WEB SCRAPING :
 
-###  What it does : 
+###  What it does 🩹 
 It extracts every article along with the heading stores it in a  New file in a txt format and then does a sentiment analysis of the provided article which has the below > fields
          
-### fields :shitpit:
+### fields ⤵️
 - "url"
 - "Positive Sentences"
 - "Negative Sentences"
@@ -44,22 +44,25 @@ It extracts every article along with the heading stores it in a  New file in a t
 
 FOLLOW THESE STEP 
 1. change the paths of the stopwords folder and files 
+   ```
+   def initialization():
+             #paths initialize them according to the location of your data 
+             stopword_folder=r"StopWords"  #folder not "file"  
+             dictionary_postive=r"positivewords.txt"
+             dictionary_negative=r"negativewords.txt"
+             
+             for filename in os.listdir(stopword_folder):
+                 with open(os.path.join(stopword_folder, filename), 'r') as file:
+                     stopw.update([word.lower() for word in file.read().splitlines()])
+   ```
+2. change path of input file
+   ```
+   def file_open():
+    filepath = r"input.xlsx"
+    df = pd.read_excel(filepath)
+    dataset=list()
+   ```
 
-> def initialization():
-    #paths initialize them according to the location of your data 
-    stopword_folder=r"StopWords"  #folder not "file"  
-    dictionary_postive=r"positivewords.txt"
-    dictionary_negative=r"negativewords.txt"
-    
-    for filename in os.listdir(stopword_folder):
-        with open(os.path.join(stopword_folder, filename), 'r') as file:
-            stopw.update([word.lower() for word in file.read().splitlines()])
-
-    with open(dictionary_negative,"r") as fn:
-        dict_n.update(fn.read().splitlines()) 
-
-    with open(dictionary_postive,"r") as fz:
-        dict_p.update(fz.read().splitlines())
 
 
 
