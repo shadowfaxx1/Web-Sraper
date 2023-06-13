@@ -1,4 +1,6 @@
-﻿#          🔰 WEB SCRAPING :
+﻿#  🔰 WEB SCRAPING :
+
+ [![WebScraper Data Science](https://img.shields.io/badge/WebScraper-Data%20Science-blueviolet)](https://github.com/your-username/webscraper-data-science)
 
 ###  What it does 🩹 
 It extracts every article along with the heading stores it in a  New file in a txt format and then does a sentiment analysis of the provided article which has the below > fields
