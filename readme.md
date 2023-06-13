@@ -57,7 +57,7 @@ FOLLOW THESE STEP
                  with open(os.path.join(stopword_folder, filename), 'r') as file:
                      stopw.update([word.lower() for word in file.read().splitlines()])
    ```
-2. change path of input file
+2. change path of input file provide a csv file with urls 
    ```
    def file_open():
     filepath = r"input.xlsx"
