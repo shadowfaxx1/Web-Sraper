@@ -1,0 +1,8 @@
+beautifulsoup4
+requests
+pandas
+nltk
+regex
+nltk_data/stopwords
+nltk_data/punkt
+nltk_data/wordnet
