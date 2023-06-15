@@ -28,12 +28,12 @@ It extracts every article along with the heading stores it in a  New file in a t
     - nltk
     - re
     - string 
+    
+## INSTALLATION
 
-    #### Initial download > inside code
-
-        -nltk.download('stopwords')
-        -nltk.download('punkt')
-        -nltk.download('wordnet')
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running > `pip install -r requirements.txt`.
+    
 ## CHANGING PATH 
     - stopword folder
     - dict_negative 
